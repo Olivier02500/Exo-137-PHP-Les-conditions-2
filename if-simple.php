@@ -38,6 +38,18 @@ echo "3.Est-ce un chat : ";
 
 // TODO mettre votre code ici
 
+$chat = true;
+
+echo "3.Est-ce un chat : ";
+
+if($chat !== true) {
+    //condition vraie
+    echo "yes";
+}
+else {
+    //condition fausse
+    echo "no";
+}
 echo "<br><br>";
 
 

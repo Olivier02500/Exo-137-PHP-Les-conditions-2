@@ -14,7 +14,7 @@ echo "<br>";
 echo "Mon chat est vivant, de couleur blanc et a les yeux Vert";
 echo "<br>";
 
-if(...) {
+if($animal ==="Chat" && $couleur==="Blanc") {
     echo "Oui";
 }
 else {
@@ -39,7 +39,7 @@ $couleur = "Marron";
 $yeux = "Vert";
 
 
-if(...) {
+if($animal === "Chat" && $couleur==="Marron" && $yeux==="Vert") {
     echo 'Oui';
 }
 else {
@@ -55,12 +55,12 @@ echo "Un de mes chats est vivant, a des yeux verts et est de couleur marron.
 Et l'autre est aussi vivant, de couleur blanche et a des yeux verts  ";
 echo "<br>";
 //n'hésitez pas à changer les valeurs pour tester si ça fonctionne
-$animal = "Chat";
+$animal = "Poisson";
 $vivant = true;
 $couleur = "Blanc";
-$yeux = "Vert";
+$yeux = "Bleu";
 
-if(...) {
+if($animal === "Poisson" && $vivant === true && $yeux==="Bleu") {
     echo 'Oui';
 }
 else {
@@ -77,12 +77,14 @@ J'ai un chat de couleur orange et avec des yeux bleus et un chien de couleur mar
 echo "<br>";
 
 $animal = "Chien";
+$chat = "Chat";
 $vivant = false;
 $couleur = "Noir";
-$yeux = "Vert";
+$couleurs = "Orange";
+$yeux = "Bleu";
 
 /** remplacer le chiffre 0 par les bonnes conditions **/
-if(...) {
+if($animal === "Chien" && $couleur==="Noir" && $yeux==="Bleu" || $chat==="Chat" && $couleurs==="Orange") {
     echo 'Oui';
 }
 else {
